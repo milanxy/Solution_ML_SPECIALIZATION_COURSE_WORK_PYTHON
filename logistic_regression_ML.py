@@ -3,8 +3,8 @@ import tensorflow as tf
 from tensorflow import keras
 from keras import layers
 import matplotlib.pylab as plt
-X= np.loadtxt("ex2data1.txt", usecols=(0,1), delimiter=',')
-Y= np.loadtxt("ex2data1.txt", usecols=(2), delimiter=',')
+X= np.loadtxt("logistic_regression_inputdata.txt", usecols=(0,1), delimiter=',')
+Y= np.loadtxt("logistic_regression_inputdata.txt", usecols=(2), delimiter=',')
 #print(y.shape)
 #print(X[:10,:])
 m,n =X.shape
